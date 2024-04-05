@@ -1,0 +1,29 @@
+.Bordercontainer {
+  display: block;
+  border: none;
+}
+
+.inputContainer {
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: auto;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+
+.inputText {
+  border: none;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.icon {
+  padding: 5px;
+  background-color: #0408eb;
+  color: #0408eb;
+}

@@ -1,0 +1,49 @@
+.itemContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.containertext {
+	display: grid;
+	justify-items: start;
+}
+/* //================== */
+.itemNotCheck {
+	display: flex;
+	gap: 10px;
+}
+.itemNotCheck .itemtext {
+	font-size: 22px;
+}
+.itemNotCheck .itemDate {
+	font-size: 8px;
+}
+/* //================== */
+
+.itemChecked {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.itemChecked .itemtext {
+	font-size: 22px;
+	color: #d70f0f;
+	font-style: oblique;
+	text-decoration: line-through;
+}
+.itemChecked .itemDate {
+	font-size: 8px;
+}
+
+.itemButtons button {
+	width: 25px;
+	height: 25px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.itemButtons {
+	display: flex;
+	gap: 10px;
+}
